@@ -4,7 +4,10 @@ class Player{
   String team;
   int age;
 
-  Player({this.name, this.xp, this.team, this.age});
+  Player({required this.name, 
+  required this.xp, 
+  required this.team, 
+  required this.age});
 }
 
 void main(){
